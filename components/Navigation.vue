@@ -22,6 +22,11 @@
         </nuxt-link>
       </li>
       <li class="local-nav__item">
+        <nuxt-link to="/blog/category/30">
+          Blog_category_page30
+        </nuxt-link>
+      </li>
+      <li class="local-nav__item">
         <nuxt-link to="/element">
           Element
         </nuxt-link>
@@ -29,6 +34,11 @@
       <li class="local-nav__item">
         <nuxt-link to="/axios">
           Axios
+        </nuxt-link>
+      </li>
+      <li class="local-nav__item">
+        <nuxt-link to="/todos">
+          todos
         </nuxt-link>
       </li>
     </ul>
