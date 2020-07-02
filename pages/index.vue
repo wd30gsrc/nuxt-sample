@@ -1,28 +1,13 @@
 <template>
-  <div class="container">
-    <navigation />
-  </div>
+  <div class="container" />
 </template>
 
 <script>
-import Navigation from '~/components/Navigation.vue'
-
 export default {
-  components: {
-    Navigation
-  }
 }
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 .title {
   font-family:

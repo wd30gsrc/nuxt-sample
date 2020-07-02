@@ -1,32 +1,32 @@
 <template>
   <div>
     <ul class="local-nav">
-      <li>
+      <li class="local-nav__item">
         <nuxt-link to="/">
           Top
         </nuxt-link>
       </li>
-      <li>
+      <li class="local-nav__item">
         <nuxt-link to="/about">
           About
         </nuxt-link>
       </li>
-      <li>
+      <li class="local-nav__item">
         <nuxt-link to="/blog">
           Blog
         </nuxt-link>
       </li>
-      <li>
+      <li class="local-nav__item">
         <nuxt-link to="/blog/99">
           Blog99
         </nuxt-link>
       </li>
-      <li>
+      <li class="local-nav__item">
         <nuxt-link to="/element">
           Element
         </nuxt-link>
       </li>
-      <li>
+      <li class="local-nav__item">
         <nuxt-link to="/axios">
           Axios
         </nuxt-link>
@@ -45,6 +45,11 @@ export default {
 .local-nav {
   list-style: none;
   font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  &__item {
+    padding: 0 10px 0;
+  }
   a {
     text-decoration: none;
     color: #333;

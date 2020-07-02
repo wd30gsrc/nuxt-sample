@@ -3,9 +3,20 @@
     <header>
       <h1>Next.jsの練習</h1>
     </header>
+    <nav><Navigation /></nav>
     <Nuxt />
   </div>
 </template>
+
+<script>
+import Navigation from '~/components/Navigation.vue'
+
+export default {
+  components: {
+    Navigation
+  }
+}
+</script>
 
 <style>
 html {

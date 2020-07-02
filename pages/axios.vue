@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     async getIp () {
-      this.ip = await this.$axios.$get('http://icanhazip.com')
+      this.ip = await this.$axios.$get('//icanhazip.com')
     }
   }
 }
