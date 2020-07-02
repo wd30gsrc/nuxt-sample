@@ -26,6 +26,11 @@ export default {
     ...mapMutations({
       toggle: 'todos/toggle'
     })
+  },
+  head () {
+    return {
+      title: 'Todos'
+    }
   }
 }
 </script>

@@ -15,6 +15,11 @@ export default {
     return {
       visible: false
     }
+  },
+  head () {
+    return {
+      title: 'Element'
+    }
   }
 }
 </script>

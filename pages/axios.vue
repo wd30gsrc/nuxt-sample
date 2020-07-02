@@ -18,6 +18,11 @@ export default {
     async getIp () {
       this.ip = await this.$axios.$get('//icanhazip.com')
     }
+  },
+  head () {
+    return {
+      title: 'Axios'
+    }
   }
 }
 </script>
