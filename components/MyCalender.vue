@@ -6,7 +6,7 @@
     <main>
       <!-- <slot text="Hello!"></slot> -->
       <slot :user="user">
-        {{ user[0].lastName }}
+        {{ user[1].lastName }}
       </slot>
     </main>
     <footer>

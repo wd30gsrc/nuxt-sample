@@ -1,6 +1,6 @@
 <template>
   <div>
-    <my-calender class="panel-default" header="This is Header">
+    <my-calender class="panel-default">
       <template v-slot:slot-header>
         <h1>Here mtght be a page title</h1>
       </template>
